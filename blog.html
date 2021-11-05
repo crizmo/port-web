@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viwepoint" content ="with=device-width, initial-scale=1.0">
+        <title> Web Design </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/8dc570c5d4.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="elina.html">ELINA</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars " onclick="showMenu()"></i>
+            </nav>
+            <h1>Blog thingy</h1>
+        </section>
+
+        <!------Blog page thingy------>
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/blog.jpg">
+                    <h2>Blog post thingy</h2>
+                    <p>I am going to leave this as it as might work on this later , dont really know why i made a blog section in the first place</p>
+
+                    <!-- <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5"placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div> -->
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Co Owners</span>
+                        <span>20+</span>
+                    </div>
+                    <div>
+                        <span>Staff</span>
+                        <span>18+</span>
+                    </div>
+                    <div>
+                        <span>Discord Moderator</span>
+                        <span>18+</span>
+                    </div>
+                    <div>
+                        <span>Event Manager</span>
+                        <span>15+</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!------Footer------>
+        <section class="footer">
+            <hr>
+            <h4>About Us</h4>
+            <p>Still learning.</p>
+            <div class="icons">
+                <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://github.com/Criz-595">
+                    <i class="fab fa-github" style="font-size:27px"></i>
+                </a>
+                <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://discord.gg/Ecy6WpEZsD">
+                    <i class="fab fa-discord" style="font-size:27px"></i>
+                </a>
+                <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://www.instagram.com/criz_595/">
+                    <i class="fab fa-instagram" style="font-size:27px"></i>
+                </a>
+            </div>
+            <p>Made by criz ofc</p>
+        </section>
+
+        <!------JavaScript for toggle menu------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
