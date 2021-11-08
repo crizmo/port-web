@@ -89,7 +89,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media(max-width: 900px){
+@media(max-width: 1000px){
     .text-box h1{
         font-size: 20px;
     }
