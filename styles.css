@@ -89,7 +89,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media(max-width: 800px){
+@media(max-width: 980px){
     .text-box h1{
         font-size: 20px;
     }
@@ -188,7 +188,7 @@ h3{
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-@media(max-width: 800px){
+@media(max-width: 980px){
     .row{
         flex-direction: column;
     }
@@ -304,7 +304,7 @@ h3{
     color: #f44336;
 }
 
-@media(max-width: 800px){
+@media(max-width: 980px){
     .testimonial-col img{
         margin-left: 0px;
         margin-right: 15px;
@@ -330,7 +330,7 @@ h3{
     padding: 0;
 }
 
-@media(max-width: 800px){
+@media(max-width: 980px){
     .cta h1{
         font-size: 24px;
     }
@@ -479,7 +479,7 @@ h3{
     margin: 10px 0;
 } */
 
-@media(max-width: 800px){
+@media(max-width: 980px){
     .sub-header h1{
         font-size: 24px;
     }
