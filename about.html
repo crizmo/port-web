@@ -1,131 +1,137 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name = "viwepoint" content ="with=device-width, initial-scale=1.0">
-        <title> DrunkBetch Website </title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/8dc570c5d4.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
-    </head>
-    <body>
-        <section class="sub-header">
-            <nav>
-                <a href="index.html"><img src="images/logo.png"></a>
-                <div class="nav-links" id="navLinks">
-                    <i class="fas fa-times" onclick="hideMenu()"></i>
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="elina.html">ELINA</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </div>
-                <i class="fas fa-bars " onclick="showMenu()"></i>
-            </nav>
-            <h1>About Us</h1>
-        </section>
 
-        <!------Main content------>
+<head>
+    <meta name="viwepoint" content="with=device-width, initial-scale=1.0">
+    <title> DrunkBetch Website </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8dc570c5d4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
 
-        <section class="course">
-            <h1>Some things I've been doing.</h1>
-            <p>Hi my name is Criz.</p>
-        </section>
-
-        <!------About Us Content------>
-
-        <section class="project-us">
-            <div class="row">
-                <div class="project-col">
-                    <h1>Personal projects</h1>
-                    <p>Working on a private game project with unity using cs.</p>
-                    <a href="images/project.mp4" class="hero-btn red-btn">Project Video</a>
-                </div>
-                <a class="topicon" id="down" href="#bot" data-scroll>
-                    <i class="fa fa-chevron-down"></i>
-                </a>
-                <div class="project-col">
-                    <video src="images/project.mp4"></video>
-                </div>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="elina.html">ELINA</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
             </div>
-        </section>
+            <i class="fas fa-bars " onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
 
-        <span id="bot">&nbsp</span>
-        <section class="about-us">
-            <div class="row">
-                <div class="about-col">
-                    <h1>Discord Bot</h1>
-                    <p>I made a discord bot using python , js 
-                        <br>Made it purely for fun and to know how they work and all.
-                        <br>Making it helped me learn a lot of new things.
-                        <br>If you want to know more about the bot click on the button below.
-                        <br>Thank you!
-                    </p>
-                    <a href="elina.html" class="hero-btn red-btn">Discord Bot</a>
-                </div>
-                <a class="topicon" id="down" href="#game" data-scroll>
-                    <i class="fa fa-chevron-down"></i>
-                </a>
-                <div class="about-col">
-                    <img src="images/about.jpg" alt="">
-                </div>
+    <!------Main content------>
+
+    <section class="course">
+        <h1>Some things I've been doing.</h1>
+        <p>Hi my name is Criz.</p>
+    </section>
+
+    <!------About Us Content------>
+
+    <section class="project-us">
+        <div class="row">
+            <div class="project-col">
+                <h1>Personal projects</h1>
+                <p>Working on a private game project with unity using cs.</p>
+                <a href="images/project.mp4" class="hero-btn red-btn">Project Video</a>
             </div>
-        </section>
-
-        <span id="game">&nbsp</span>
-        <section class="about-us">
-            <div class="row">
-                <div class="about-col">
-                    <h1>Block Game</h1>
-                    <p>Made a block game using unity.
-                        <br>Followed a tutorial by Brackeys to make it as it was my first time.
-                        <br>It helped me learn cs and many different things like Ray casting.
-                        <br>Here's a small video of the game. [Ps the game is hard].
-                        <br>Thank you.
-                    </p>
-                    <a href="images/dogegame.mp4" class="hero-btn red-btn">Game</a>
-                </div>
-                <div class="project-col">
-                    <video src="images/dogegame.mp4"></video>
-                </div>
+            <a class="topicon" id="down" href="#bot" data-scroll>
+                <i class="fa fa-chevron-down"></i>
+            </a>
+            <div class="project-col">
+                <video src="images/project.mp4" controls></video>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!------Footer------>
-        <section class="footer">
-            <hr>
-            <h4>About Us</h4>
-            <p>Still learning.</p>
-            <div class="icons">
-                <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://github.com/Criz-595">
-                    <i class="fab fa-github" style="font-size:27px"></i>
-                </a>
-                <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://discord.gg/Ecy6WpEZsD">
-                    <i class="fab fa-discord" style="font-size:27px"></i>
-                </a>
-                <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://www.instagram.com/criz_595/">
-                    <i class="fab fa-instagram" style="font-size:27px"></i>
-                </a>
+    <span id="bot">&nbsp</span>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Discord Bot</h1>
+                <p>I made a discord bot using python , js
+                    <br>Made it purely for fun and to know how they work and all.
+                    <br>Making it helped me learn a lot of new things.
+                    <br>If you want to know more about the bot click on the button below.
+                    <br>Thank you!
+                </p>
+                <a href="elina.html" class="hero-btn red-btn">Discord Bot</a>
             </div>
-            <p>Made by criz ofc</p>
-        </section>
+            <a class="topicon" id="down" href="#game" data-scroll>
+                <i class="fa fa-chevron-down"></i>
+            </a>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
 
-        <!------JavaScript for toggle menu------>
-        <script>
+    <span id="game">&nbsp</span>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Block Game</h1>
+                <p>Made a block game using unity.
+                    <br>Followed a tutorial by Brackeys to make it as it was my first time.
+                    <br>It helped me learn cs and many different things like Ray casting.
+                    <br>Here's a small video of the game. [Ps the game is hard].
+                    <br>Thank you.
+                </p>
+                <a href="images/dogegame.mp4" class="hero-btn red-btn">Game</a>
+            </div>
+            <div class="project-col">
+                <video src="images/dogegame.mp4" controls></video>
+            </div>
+        </div>
+    </section>
 
-            var navLinks = document.getElementById("navLinks");
+    <!------Footer------>
+    <section class="footer">
+        <hr>
+        <h4>About Us</h4>
+        <p>Still learning.</p>
+        <div class="icons">
+            <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://github.com/Criz-595">
+                <i class="fab fa-github" style="font-size:27px"></i>
+            </a>
+            <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://discord.gg/Ecy6WpEZsD">
+                <i class="fab fa-discord" style="font-size:27px"></i>
+            </a>
+            <a class="icon gradient fade" aria-label="Github" target="_blank"
+                href="https://www.instagram.com/criz_595/">
+                <i class="fab fa-instagram" style="font-size:27px"></i>
+            </a>
+        </div>
+        <p>Made by criz ofc</p>
+    </section>
 
-            function showMenu(){
-                navLinks.style.right = "0";
-            }
-            function hideMenu(){
-                navLinks.style.right = "-200px";
-            }
+    <!------JavaScript for toggle menu------>
+    <script>
 
-        </script>
-    </body>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
 </html>
